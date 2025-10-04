@@ -27,6 +27,8 @@ An institution $\mathcal{I} = (\text{Sign}, \text{Sen}, \text{Mod}, \models)$:
 - Mod: signatures $\to$ categories of models.  
 - Satisfaction: $\models \subseteq |Mod(\Sigma)| \times Sen(\Sigma)$.
 
+For a signature $\Sigma$, we write $\mathbf{Mod}(\Sigma)$ for the category of models of that signature. Objects are models (structures satisfying the signature), and morphisms are homomorphisms between models.
+
 A **morphism of institutions** $(\Phi, \alpha, \beta)$:  
 - $\Phi: \text{Sign}_1 \to \text{Sign}_2$.  
 - Sentence translation: $\alpha_\Sigma: Sen_1(\Sigma) \to Sen_2(\Phi\Sigma)$.  

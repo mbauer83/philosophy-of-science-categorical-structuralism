@@ -12,7 +12,7 @@ Let $C$ be a category of instruments or perspectives.
 
 Define a fibration $p: E \to C$:  
 - Fiber $E_c = p^{-1}(c)$: category of models as seen under instrument $c$.  
-- Reindexing: for $f: c \to d$, a functor $f^*: E_d \to E_c$.  
+- Reindexing: for $f: c \to d$, a functor $f^{*}: E_d \to E_c$.  
 
 **Interpretation**: changing instrument induces reducts/expansions of models.  
 This encodes instrument-dependence of epistemic access.
@@ -73,7 +73,7 @@ Reduction of $S$ to $T$:
 | Philosophy of Science Concept     | Category-Theory Construct                                    |
 |----------------------------------|--------------------------------------------------------------|
 | Instrument / POV dependence       | Fibration $p: E \to C$ with reindexing functors            |
-| Observational equivalence         | Collapse under reduct functor $f^*$                        |
+| Observational equivalence         | Collapse under reduct functor $f^{*}$                        |
 | Theory translation                | Institution morphism                                         |
 | Inter-theory reduction            | Geometric morphism $\mathcal{E}_S \to \mathcal{E}_T$       |
 | Actual vs potential models        | Subobjects/classifying subtopos of $\mathcal{E}_T$         |

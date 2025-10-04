@@ -58,15 +58,15 @@ Define a coarse sketch $\mathcal{S}_{\text{coarse}}$ with objects $P,T,V,PT$, an
 
 The **reduct functor**:
 
-$$r^*: \mathbf{Mod}(\mathcal{S}) \to \mathbf{Mod}(\mathcal{S}_{\text{coarse}})$$
+$$r^{*}: \mathbf{Mod}(\mathcal{S}) \to \mathbf{Mod}(\mathcal{S}_{\text{coarse}})$$
 
 is induced by the forgetful sketch morphism $\mathcal{S}_{\text{coarse}} \to \mathcal{S}$.
 
-- $r^*(M_1) = r^*(M_2) = N$.
+- $r^{*}(M_1) = r^{*}(M_2) = N$.
 
 Thus, distinct fine models collapse to the same coarse model:  
 
-$$M_1 \neq M_2 \quad \text{but} \quad r^*(M_1) = r^*(M_2).$$
+$$M_1 \neq M_2 \quad \text{but} \quad r^{*}(M_1) = r^{*}(M_2).$$
 
 This encodes **observational equivalence**.
 
@@ -85,7 +85,7 @@ A signature morphism $\sigma: \mathcal{S}_{\text{coarse}} \to \mathcal{S}$ induc
 
 **Satisfaction condition**: for any coarse sentence $\varphi$,
 
-$$M \models_\mathcal{S} \varphi \;\; \iff \;\; r^*(M) \models_{\mathcal{S}_{\text{coarse}}} \varphi.$$
+$$M \models_\mathcal{S} \varphi \;\; \iff \;\; r^{*}(M) \models_{\mathcal{S}_{\text{coarse}}} \varphi.$$
 
 This formally captures the semantic invariance of observational statements.
 
